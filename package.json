@@ -1,0 +1,19 @@
+{
+  "name": "hanoi-solver",
+  "version": "1.0.0",
+  "description": "Solves the towers of Hanoi problem and animates the solution",
+  "main": "index.html",
+  "homepage": "michaelblood.github.io/hanoi-solver",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "webpack --progress --colors"
+  },
+  "author": "michaelblood",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.0"
+  }
+}
